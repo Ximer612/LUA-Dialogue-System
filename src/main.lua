@@ -58,7 +58,15 @@ function love.load()
         },
         {
             "Bark bark?", {{"Bark?", {"*gives you a bone*", "*throw it away*" }}, "Good boy." }
-        }
+        },
+        {
+            "First NPC line", 
+                {{"First Answer",
+                    {"Second NPC line",
+                        {"Second Answer"}
+                    }
+                }}
+         }
     }
 
     npc1 = NPC.new("LUA",npc1Dialogue)
